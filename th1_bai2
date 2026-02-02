@@ -1,0 +1,115 @@
+1️ Nhận định tổng thể bố cục trang
+
+ Trang web có dạng landing page danh sách khóa học, bố cục theo grid (lưới).
+
+Chiều rộng trang: toàn màn hình
+
+Nội dung chính căn giữa
+
+Chia thành nhiều thẻ khóa học (course card)
+
+ Bố cục chung:
+
+1 tiêu đề lớn ở trên
+
+Bên dưới là các khối khóa học xếp dạng lưới 3 cột
+
+Mỗi hàng có 3 khóa học
+
+2️ Các khu vực (sections) chính của trang
+ 1. Khu vực tiêu đề (Header section)
+
+Thành phần cần có:
+
+Tiêu đề: “KHÓA HỌC SẮP KHAI GIẢNG”
+
+Có thể kèm:
+
+Icon
+
+Đường gạch trang trí
+
+ Phần tử HTML:
+
+div
+
+h2 hoặc h1
+
+ 2. Khu vực danh sách khóa học (Main content)
+
+Đây là phần quan trọng nhất.
+
+ Sử dụng:
+
+div.container
+
+div.row
+
+nhiều div.card
+
+3️Cấu trúc một thẻ khóa học (Course Card)
+
+Mỗi khóa học là 1 card độc lập, gồm các thành phần sau:
+
+ Cấu trúc card
+
+Hình ảnh khóa học
+
+Banner / ảnh minh họa
+
+Nằm trên cùng
+
+Tên khóa học
+
+In đậm
+
+Ví dụ: LẬP TRÌNH WEB FULLSTACK
+
+Mô tả ngắn
+
+2–3 dòng
+
+Giới thiệu nội dung khóa học
+
+Thông tin chi tiết
+
+Học phí
+
+Khai giảng
+
+Thời lượng
+
+Nút hành động
+
+“ĐĂNG KÝ NGAY”
+
+ Các phần tử HTML cần dùng trong card
+
+div (bao ngoài)
+
+img (ảnh khóa học)
+
+h3 (tên khóa học)
+
+p (mô tả)
+
+ul / li hoặc nhiều p (thông tin)
+
+button hoặc a
+
+4️ Nhận định kiểu phần tử cần xây dựng
+ Nhóm phần tử nội dung
+
+Text: h1, h2, h3, p, span
+
+Danh sách: ul, li
+
+ Nhóm phần tử đa phương tiện
+
+img (ảnh banner khóa học)
+
+ Nhóm phần tử tương tác
+
+button
+
+a (link đăng ký)
