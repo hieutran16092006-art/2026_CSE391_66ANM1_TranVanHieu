@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Goals</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div id="page-logo">
+      <a href="#">Travel Goals</a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <div id="hero-content">
+        <h1>Joe's Travel Page</h1>
+        <p>Let's explore the world together!</p>
+        <a href="#">Discover places</a>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section id="highlights">
+      <h2>Highlights</h2>
+
+      <ul id="destinations">
+        <li class="destination">
+          <img src="images/miami.jpg" alt="Miami">
+          <p>Miami <strong>USA</strong></p>
+        </li>
+
+        <li class="destination">
+          <img src="images/munich.jpg" alt="Munich">
+          <p>Munich <strong>Germany</strong></p>
+        </li>
+
+        <li class="destination">
+          <img src="images/barcelona.jpg" alt="Barcelona">
+          <p>Barcelona <strong>Spain</strong></p>
+        </li>
+      </ul>
+
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <ul>
+      <li>
+        <a href="#">
+          <img src="images/insta.png" alt="Instagram">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/facebook.png" alt="Facebook">
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
